@@ -1,0 +1,109 @@
+/* Apply a background gradient to the entire body */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #3b82f6, #9333ea);
+}
+
+/* Style the header */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 36px;
+    color: white;
+}
+
+/* Style the login container */
+.login-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Style the heading */
+.login-container h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #ff2400;
+}
+
+/* Style the input fields */
+input[type="text"],
+input[type="Email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Add focus effects to inputs */
+input[type="text"]:focus,
+input[type="Email"]:focus,
+input[type="password"]:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 5px rgba(59, 130, 246, 0.5);
+    outline: none;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    width: 100%;
+    background-color: #3b82f6;
+    color: white;
+    padding: 12px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+/* Add hover effects to the submit button */
+input[type="submit"]:hover {
+    background-color: #2563eb;
+}
+a {
+    color: black;
+}
+a:hover{
+    color:#ff2400;
+    
+}
+.SignUp-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+input[type="submit"] {
+    width: 100%;
+    background-color: #3b82f6;
+    color: white;
+    padding: 12px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
